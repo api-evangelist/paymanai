@@ -1,0 +1,18 @@
+generated: '2026-10-21'
+method: none
+source:
+- https://zapier.com/apps/paymanai/integrations
+- https://zapier.com/apps/payman-ai-inc/integrations
+- https://n8n.io/integrations/paymanai/
+- https://composio.dev/toolkits/paymanai
+- https://monid.ai/tools/paymanai
+checked:
+- https://composio.dev/toolkits/paymanai
+- https://monid.ai/tools/paymanai
+- https://n8n.io/integrations/paymanai/
+- https://zapier.com/apps/payman-ai-inc/integrations
+- https://zapier.com/apps/paymanai/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

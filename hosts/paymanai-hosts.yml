@@ -1,0 +1,72 @@
+generated: '2026-10-21'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 4
+  own: 4
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - other
+  - status
+  - website
+hosts:
+- host: api.paymanai.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: paymanai.com
+  role: api
+  relation: own
+- host: paymanai.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Compliance
+  - Website
+  - DeveloperPortal
+  - Documentation
+  - GettingStarted
+  - Blog
+  - TermsOfService
+  - PrivacyPolicy
+  serves:
+  - docs
+  - cdn
+  vendor: cloudflare
+  registrable_domain: paymanai.com
+  role: website
+  relation: own
+- host: status.paymanai.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: paymanai.com
+  role: status
+  relation: own
+- host: trust.paymanai.com
+  found_by:
+  - probed
+  - site-links
+  - docs-index
+  - contract-discovery
+  - well-known
+  types: []
+  serves:
+  - docs
+  registrable_domain: paymanai.com
+  role: other
+  relation: own

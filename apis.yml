@@ -1,23 +1,91 @@
 aid: paymanai
+
 name: Payman AI, Inc
-description: 'Payman AI, Inc is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://paymanai.com/images/og-image.png
+
+description: Payman AI, Inc provides agentic AI solutions for banks and credit unions, enabling autonomous handling of payments, transfers, account
+  analysis, and customer interactions through voice or text interfaces. Their platform integrates with existing banking systems while maintaining
+  strict security and compliance, offering a trusted AI-driven banking experience under the control of financial institutions.
+
 url: https://raw.githubusercontent.com/api-evangelist/paymanai/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
 - Company
-apis: []
+- AI
+- Banking
+- FinTech
+- Agentic
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Compliance
+  url: https://paymanai.com/security
+- type: Security
+  url: security/paymanai-vulnerability-disclosure.yml
+- type: Conformance
+  url: conformance/paymanai-conformance.yml
+- type: LLMsTxt
+  url: llms/paymanai-llms.txt
+- type: Hosts
+  url: hosts/paymanai-hosts.yml
+- type: Vendors
+  url: vendors/paymanai-vendors.yml
+- type: TrustCenter
+  url: security/paymanai-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/paymanai-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/paymanai-domain-security.yml
 - type: Website
   url: https://paymanai.com/
+- type: DeveloperPortal
+  url: https://paymanai.com/
+- type: Documentation
+  url: https://paymanai.com/
+- type: GettingStarted
+  url: https://paymanai.com/agentic-banking
+- type: Blog
+  url: https://paymanai.com/blog
+- type: TermsOfService
+  url: https://paymanai.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://paymanai.com/privacy-policy
+
+apis:
+- name: Payman AI API
+  description: Agentic AI banking platform API (no public machine‑readable contract discovered)
+  humanURL: https://paymanai.com/
+  x-coverage:
+    state: unreadable
+    reason: no-machine-readable-spec
+    detail: No OpenAPI, GraphQL, AsyncAPI, gRPC, or WSDL contract found on the provider's site.
+    evidence:
+    - url: https://paymanai.com/
+      status: 200
+    checked: '2026-10-21'
+  aid: paymanai:payman-ai-api
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 12
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

@@ -1,0 +1,61 @@
+# Payman AI
+
+> Agentic AI That Does the Banking. Under Your Control.
+
+Payman AI builds the orchestration infrastructure that enables banks and credit unions to deploy AI agents securely at scale. We translate natural language intent into validated financial operations while maintaining full auditability and controls.
+
+## Facts
+
+- Legal name: Payman AI, Inc.
+- Security: SOC 2 Type I and SOC 2 Type II (Johanson Group); Trust Center at https://trust.paymanai.com/
+- Funding: $13M total funding
+
+## Key Pages
+
+- [Home](https://paymanai.com/)
+- [Agentic Banking](https://paymanai.com/agentic-banking)
+- [Security](https://paymanai.com/security)
+- [About Us](https://paymanai.com/about-us)
+- [Blog](https://paymanai.com/blog)
+- [Events](https://paymanai.com/events)
+- [Press](https://paymanai.com/press)
+- [Reports & Guides](https://paymanai.com/reports)
+- [AI Banking Safety](https://paymanai.com/resources/ai-banking-safety)
+- [How to Let AI Agents Move Money Safely](https://paymanai.com/reports/ai-agents-move-money-safely)
+- [Agentic AI for Community Banks and Credit Unions: How to Compare Vendors](https://paymanai.com/resources/compare-agentic-ai-vendors-banks-credit-unions): Compare agentic AI vendors for community banks and credit unions. Payman AI agents do transfers, bill pay and beneficiary changes, with teller and loan staff agents and Paygent Central controls.
+- [AI Agent Exam Readiness Checklist](https://paymanai.com/resources/ai-agent-exam-readiness-checklist)
+- [Paygent Central Guide](https://paymanai.com/resources/paygent-central-guide)
+- [Schedule a Demo](https://paymanai.com/demo)
+- [Trust Center](https://trust.paymanai.com/)
+
+## What We Do
+
+Payman AI enables banks and credit unions to deploy AI agents that can execute real financial transactions - payments, transfers, account analysis - through voice or text, on existing banking rails. Every action is policy-validated, logged, and auditable.
+
+## Architecture
+
+- **AI Reasoning Layer**: Understands customer intent from natural language
+- **Policy Enforcement Layer**: Validates every action against bank-defined rules
+- **Deterministic Execution Layer**: Executes transactions through existing core banking systems
+
+## Integrations
+
+- Core Banking: FIS, Fiserv, Jack Henry, COCC, and more
+- Digital Platforms: Narmi, Q2, Alkami, Candescent, and more
+- Channels: Voice, Mobile, Web, and SMS
+
+## FAQ
+
+- **What is Payman AI?** Payman AI deploys AI agents for banks and credit unions that carry out real banking transactions on the institution's existing systems under policies, approvals and audit trails the institution controls.
+- **Who is Payman AI for?** Banks and credit unions, their customers and members, and their staff.
+- **Is it safe / how do bank policies control agents?** The agent acts only when an authenticated customer or member asks; an immutable policy engine checks every action, every step is logged, and the institution holds the kill switch.
+- **Is Payman SOC 2 compliant?** Yes. Payman has SOC 2 Type I and SOC 2 Type II reports. Details: https://paymanai.com/security and https://trust.paymanai.com/
+- **Does Payman replace the core?** No. It runs on the institution's existing rails and integrates with existing cores and digital platforms rather than replacing them.
+- **How is Payman funded?** Payman AI has raised $13M in total funding.
+
+## Contact
+
+- Website: https://paymanai.com
+- Email: support@paymanai.com
+- LinkedIn: https://www.linkedin.com/company/paymanai
+- X: https://x.com/paymanai
